@@ -5,12 +5,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <link rel="stylesheet" href="style.css" />
+    <title> Paulo Gugelmo Cavalheiro Dias</title>
 </head>
-<body>
-    <p>
-        Test de l'Index !
-    </p>
 
+<body>
+
+    <div id='Language'> 
+        <a href="/Commun/LANG_CHOICE.php?LANG=Francais" style='color:#069E2D'> FR </a>/
+        <a href="/Commun/LANG_CHOICE.php?LANG=English" style='color:gray'> EN </a>/
+        <a href="/Commun/LANG_CHOICE.php?LANG=Deutsch" style='color:gray'> DE </a> 
+    </div>
+
+    <div id="Milieu">
+
+    <nav>
+        <h3>
+            <b>
+                <div id="Barre_menu">
+                    <div class="Bouton">
+                        <a href="Accueil_fr.php" style='color:#069E2D'> Accueil </a>
+                    </div>
+                    <div class="Bouton">
+                        <a href="Articles_fr.php"> Articles </a>
+                    </div>
+                    <div class="Bouton">
+                        <a href="A_propos_fr.php" > À propos </a>
+                    </div>
+                </div>
+            </b>
+        </h3>
+    </nav>
+
+    <section>
+        <p>
+            Bienvenue sur mon site internet. Je suis Paulo Gugelmo et ceci se veut être un carnet de réflexions en sciences sociales en ligne.
+            Vous y trouverez des veilles scientifique et sociale, mais aussi des billets de recherche personnels.
+            Vous êtes donc au bon endroit si vous souhaitez vous maintenir informé des thèmes sociétaux
+            ou tout simplement suivre le travail d’un étudiant en sciences sociales. Les thèmes abordés
+            peuvent varier entre disciplines, touchant à la sociologie, les sciences économiques, et la science politique.
+            J'aborderai entre autres les méthodes d’analyse quantitatives et l’analyse de réseau. 
+        </p>
+        <p>
+            L’objectif de ce site est aussi de vulgariser des concepts et approches scientifiques, c’est pourquoi
+            les articles se veulent accessibles et détaillés. N’hésitez pas à lire mes Notes de travail (qui décrivent mes intentions),
+            à retrouver <a href="Articles_fr.php">tous mes articles</a> ou bien les derniers parus, en bas de la page !
+        </p>
+        <p>
+            Enfin, n’hésitez pas à <a href="A_propos_fr.php">me contacter</a>, pour me faire part de vos impressions. Je lirai tous les messages, et
+            répondrai avec joie à toute demande ! 
+        </p>
+    </section>
+
+
+    <div id="Encadrement_articles">
+        
+        <h3 class="Introduction">
+            <div class='Texte_introduction'>
+            Mes <?php echo $nombre_résultats ;?> derniers articles : 
+            </div>
+        </h3>
+
+        <?php $Affichage_articles  = $bdd -> query('SELECT * FROM Articles_fr ORDER BY ID DESC LIMIT 5');
+            while ($donnees = $Affichage_articles -> fetch())
+            {
+                echo '<div class="article"><h2>' . $donnees['Titre'] . '</h2>';
+                echo '<p>' . substr($donnees['Resum'], 0, 500) . ' (...) </p>';
+                $date_a_afficher = DateTime::createFromFormat('Y-m-d', $donnees['Date_publication']);
+                echo '<p> Publié le ';
+                echo $date_a_afficher->format('d/m/Y');
+                echo ' - <a href="Lecture_article_fr.php?ID_ARTICLE=' . $donnees['ID'] . '">Voir plus... </a> </div>';
+                echo '<br/><br/>';
+            }
+            $Affichage_articles -> closeCursor();
+        ?>
+
+    </div>
+
+    <div id="Footer">
+        <h2>
+            <div id="Barre_footer">
+                <div id="Droits_réservés">
+                    <p>
+                        Droits réservés - Paulo Gugelmo Cavalheiro Dias © 2021 
+                </div>
+            </div>
+        <h2>
+    </div>    
+    
 </body>
+</html>
+
 </html>
