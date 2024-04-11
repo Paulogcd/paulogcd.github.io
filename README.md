@@ -1,1 +1,0 @@
-# paulogcd.github.io
