@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713112686.13888 "macro_presentation.tex" "macro_presentation.pdf" "macro_presentation" 1713112689.03022 0
+["pdflatex"] 1713126571.53599 "macro_presentation.tex" "macro_presentation.pdf" "macro_presentation" 1713126574.87983 0
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -167,9 +167,9 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632435985.20577 2724742 d4c7191149db17f17f7af666ce47b818 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "macro_presentation.aux" 1713112688.68215 2728 2acae6e7bd5e11a20c562c8074b3b1d2 "pdflatex"
-  "macro_presentation.tex" 1713112678.84331 17380 75dc19758982d7f2affcf978008ddf76 ""
-  "macro_presentation.toc" 1713112688.68359 408 7552c6c18679a88e3d00fec8131909f5 "pdflatex"
+  "macro_presentation.aux" 1713126574.51266 2727 d36a97d8a21594a4ef6034e2636c13ad "pdflatex"
+  "macro_presentation.tex" 1713126564.22449 17269 1ef759dddf33cd6be331f00ab3e22533 ""
+  "macro_presentation.toc" 1713126574.51542 408 b0ef26dfc715dc5e99810efff3f0bf1f "pdflatex"
   (generated)
   "macro_presentation.aux"
   "macro_presentation.log"

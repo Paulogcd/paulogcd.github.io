@@ -4,6 +4,7 @@ author: "Gugelmo Cavalheiro Dias Paulo \\ and Mitash Nayanika \\ and Wang Shang"
 pdf-engine: latexmk
 format:
   pdf:
+    mainfont: Times New Roman
     toc: true
     number-sections: true
     colorlinks: true
@@ -25,13 +26,13 @@ Let's ignore the first two equations, since they are the same as (28) and (29), 
 \subsection{Introduction}
 
 \subsubsection*{Equation 1}
-% equation 1%
+
 \begin{equation}
     x_{t}=M\cdot\mathbb{E}_{t}\left[ x_{t+1} -\sigma (i_{t}-\mathbb{E}_t\left[\pi_{t+1}\right]-r^{n}_{t})\right]
 \end{equation}
 
 \subsubsection*{Equation 2}
-% equation 2%
+
 \begin{equation}
     \pi_{t}=\beta\cdot M^{f} \mathbb{E}_t\left[\pi_{t+1}\right]+\kappa\cdot x_{t}
 \end{equation}
@@ -39,7 +40,7 @@ Let's ignore the first two equations, since they are the same as (28) and (29), 
 \subsection{Basic Setup and the Household’s Problem}
 
 \subsubsection*{Equation 3}
-% equation 3%
+
 \begin{equation}
     U = \mathbb{E}_t \left[ \sum_{t=0}^{\infty} \beta^{t}\left(\frac{c_{t}^{1-\gamma}-1}{1-\gamma} - \frac{N_{t}^{1+\phi}}{1+\phi}\right)\right]
 \end{equation}
@@ -56,7 +57,7 @@ Equation (3) is just the flow utility of the Household, with :
 %There is some computation between (3) and (4) !!!%
 
 \subsubsection*{Equation 4}
-% equation 4%
+
 \begin{equation}
     k_{t+1}=(1+r_t)(k_{t}-c_{t}+y_{t})
 \end{equation}
@@ -71,7 +72,6 @@ Equation (4) is the law of motion of the real financial wealth of the household,
 
 \subsubsection*{Equation 5}
 
-% equation 5%
 \begin{equation}
     \bm{X}_{t+1}=\bm{G}^{\bm{X}}\left(\bm{X}_{t},\bm{\epsilon}_{t+1}\right)
 \end{equation}
@@ -85,7 +85,6 @@ Equation (5) describes the evolution of macroeconomic variables, where :
 
 \subsubsection*{Equation 6}
 
-% equation 6%
 \begin{equation}
     k_{t+1}=G^{k}(c_{t},N_{t}, k_{t}, \bm{X}_t):= (1+\bar{r}+\hat{r}(\bm{X}_{t}))(k_{t}+\bar{y}+\hat{y}(N_{t},\bm{X}_t)-c_{t})
 \end{equation}
@@ -101,7 +100,6 @@ Equation (6) is the application of the consideration of a set of macroeconomic v
 
 \subsubsection*{Equation 7}
 
-% equation 7%
 \begin{equation}
     \bm{X}_{t+1}=\bm{\Gamma}\bm{X}_{t}+\bm{epsilon}_{t+1}
 \end{equation}
@@ -115,19 +113,17 @@ Equation (7) describes the linear version of the equilibrium transition function
 
 \subsubsection*{Equation 8 (Assumption 1)}
 
-% equation 8%
 \begin{equation}
     \bm{X}_{t+1}=\bar{m}\cdot\bm{G}^{\bm{X}}(\bm{X}_{t},\bm{\epsilon}_{t+1})
 \end{equation}
 
 Equation (8) describes the Cognitive Discounting of the State Vector, i.e. the perception by behavioral agents of the law of motion of the macroeconomic variables, where : 
 \begin{itemize}
-    \item $\bar{m}\in\left[0n1\right]$ is the coginitive discount factor measuring the attention to the future
+    \item $\bar{m}\in\left[0,1\right]$ is the cognitive discount factor measuring the attention to the future
 \end{itemize}
 
 \subsubsection*{Equation 9}
 
-% equation 9%
 \begin{equation}
     \bm{X}_{t+1}=\bar{m}(\bm{\Gamma}\bm{X}_{t}+\bm{\epsilon}_{t+1})
 \end{equation}
