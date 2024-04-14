@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Contact"
+        file: contact.qmd 
+      - text: "Macro presentation"
+        file: macro_presentation.qmd
+      - text: Webgraph
+        href: /Webgraph
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,381 @@
+---
+title: "Macroeconomics 2 Presentation \\ Part III equations"
+author: "Gugelmo Cavalheiro Dias Paulo \\ and Mitash Nayanika \\ and Wang Shang"
+pdf-engine: latexmk
+format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{bm}
+  - \usepackage{mathastext}
+  - \DeclareSymbolFont{matha}{OML}{txmi}{m}{it}
+  - \DeclareMathSymbol{\varv}{\mathord}{matha}{118}
+output:
+    pdf_document
+
+---
+
+\section{A Behavioral Model}
+Let's ignore the first two equations, since they are the same as (28) and (29), that will be explained later.
+
+\subsection{Introduction}
+
+\subsubsection*{Equation 1}
+% equation 1%
+\begin{equation}
+    x_{t}=M\cdot\mathbb{E}_{t}\left[ x_{t+1} -\sigma (i_{t}-\mathbb{E}_t\left[\pi_{t+1}\right]-r^{n}_{t})\right]
+\end{equation}
+
+\subsubsection*{Equation 2}
+% equation 2%
+\begin{equation}
+    \pi_{t}=\beta\cdot M^{f} \mathbb{E}_t\left[\pi_{t+1}\right]+\kappa\cdot x_{t}
+\end{equation}
+
+\subsection{Basic Setup and the Household’s Problem}
+
+\subsubsection*{Equation 3}
+% equation 3%
+\begin{equation}
+    U = \mathbb{E}_t \left[ \sum_{t=0}^{\infty} \beta^{t}\left(\frac{c_{t}^{1-\gamma}-1}{1-\gamma} - \frac{N_{t}^{1+\phi}}{1+\phi}\right)\right]
+\end{equation}
+
+Equation (3) is just the flow utility of the Household, with : 
+\begin{itemize}
+    \item $\beta$ the discount factor
+    \item $c_{t}$ the consumption of the houshold at time $t$
+    \item $N_{t}$ the work of the household at time $t$
+    \item $\gamma$ determines the concavity of the utility function with respect to the consumption, i.e. the importance of consumption in the utility function
+    \item $\phi$ determines the concavity of the utility function with respect to work, i.e. the importance of work in the utility function
+\end{itemize}
+
+%There is some computation between (3) and (4) !!!%
+
+\subsubsection*{Equation 4}
+% equation 4%
+\begin{equation}
+    k_{t+1}=(1+r_t)(k_{t}-c_{t}+y_{t})
+\end{equation}
+
+Equation (4) is the law of motion of the real financial wealth of the household, where : 
+\begin{itemize}
+    \item $k_t$ is the real financial welath of the household at time $t$
+    \item $r_t$ is the real interest rate
+    \item $w_t$ is the real wage
+    \item $y_t$ is the agent's real income, defined as $y_t=w_t\cdot N_{t}+y_{t}^{f}$, with $y_{t}^{f}$ the profit income (or the income from firms) at time $t$
+\end{itemize}
+
+\subsubsection*{Equation 5}
+
+% equation 5%
+\begin{equation}
+    \bm{X}_{t+1}=\bm{G}^{\bm{X}}\left(\bm{X}_{t},\bm{\epsilon}_{t+1}\right)
+\end{equation}
+
+Equation (5) describes the evolution of macroeconomic variables, where : 
+\begin{itemize}
+    \item $\bm{X}_t$ is the state vector, including several macroeconomic variables of time $t$, like $\zeta_t$ the aggregate TFP, and the announced actions in monetary and fiscal policy
+    \item $\bm{G}^X$ the equilibrium transition function, i.e. the function that gives the macroeconomic variables at time $t+1$ from the macroeconomic variables at the previous period
+    \item $\epsilon_{t}$ is the innovation in the economy at time $t$, with $\mathbb{E}_{t}\left[\epsilon_{t+1}\right]=0$, that depends on the equilibrium policies of the agent and of the government
+\end{itemize}
+
+\subsubsection*{Equation 6}
+
+% equation 6%
+\begin{equation}
+    k_{t+1}=G^{k}(c_{t},N_{t}, k_{t}, \bm{X}_t):= (1+\bar{r}+\hat{r}(\bm{X}_{t}))(k_{t}+\bar{y}+\hat{y}(N_{t},\bm{X}_t)-c_{t})
+\end{equation}
+
+Equation (6) is the application of the consideration of a set of macroeconomic variables on the law of motion of real financial wealth $k_{t}$, where : 
+\begin{itemize}
+    \item $\bar{r}$ is the steady state value of the real interest rate, that does not depend on time
+    \item $\hat{r}(\bm{X}_t)$ is the value of the deviation from the steady state of the real interest rate, that depends on the state vector $\bm{X}_{t}$ at time $t$
+    \item $\bar{y}$ is the steady state value of the agent's real income, that does not depend on time
+    \item $\hat{y}(N_{t},\bm{X}_{t})$ is the deviation from the steady state of the agent's real income, that depends on the number of hours worked at time $t$ and on the state vector at time $t$
+    \item $c_{t}$ is the aggregate consumption level at time $t$ of the agent
+\end{itemize}
+
+\subsubsection*{Equation 7}
+
+% equation 7%
+\begin{equation}
+    \bm{X}_{t+1}=\bm{\Gamma}\bm{X}_{t}+\bm{epsilon}_{t+1}
+\end{equation}
+
+Equation (7) describes the linear version of the equilibrium transition function, it is the linearization of the law of motion, where :
+\begin{itemize}
+    \item $\Gamma$ is a squared matrix that multiplies the state vector
+    \item $\bm{X}_t$ is the state vector at time t
+    \item $\epsilon_{t}$ is the innovation shock
+\end{itemize}
+
+\subsubsection*{Equation 8 (Assumption 1)}
+
+% equation 8%
+\begin{equation}
+    \bm{X}_{t+1}=\bar{m}\cdot\bm{G}^{\bm{X}}(\bm{X}_{t},\bm{\epsilon}_{t+1})
+\end{equation}
+
+Equation (8) describes the Cognitive Discounting of the State Vector, i.e. the perception by behavioral agents of the law of motion of the macroeconomic variables, where : 
+\begin{itemize}
+    \item $\bar{m}\in\left[0n1\right]$ is the coginitive discount factor measuring the attention to the future
+\end{itemize}
+
+\subsubsection*{Equation 9}
+
+% equation 9%
+\begin{equation}
+    \bm{X}_{t+1}=\bar{m}(\bm{\Gamma}\bm{X}_{t}+\bm{\epsilon}_{t+1})
+\end{equation}
+
+Equation (9) is just the linearized version of the perception by behavioral agents of the law of motion of the state vector. 
+
+\subsubsection*{Equation 10}
+
+\begin{equation}
+    \mathbb{E}_{t}^{BR}\left[\bm{X}_{t+k}\right]=\bar{m}^{k}\mathbb{E}_{t}\left[\bm{X}_{t+k}\right]
+\end{equation}
+
+Equation (10) defines the expectation of behavioral agents in function of the rational perception of the law of motion of the state vector, where : 
+\begin{itemize}
+    \item $k\geq 0$ a time period in discrete context
+    \item $\mathbb{E}_{t}^{BR}\left[\bm{X}_{t+k}\right]$ is the expected value of the state vector at time $t+k$ by behavioral agents (or subjective/behavioral expectation operator)
+    \item $\bar{m}^{k}$ is the cognitive discounting effect at period $t+k$
+    \item $\mathbb{E}_{t}\left[\bm{X}_{t+k}\right]$ is the rational expectation of the state vector at time $t+k$
+\end{itemize}
+
+\subsubsection*{Equation 11 (Lemma 1)}
+
+\begin{equation}
+    \mathbb{E}_{t}^{BR}\left[z\left(\bm{X}_{t+k}\right)\right]=\bar{m}^{k}\mathbb{E}_{t}\left[z\left(\bm{X}_{t+k}\right)\right]
+\end{equation}
+
+Equation (11) defines in the general case the behavioral expectation operator, for any function of the state vector, where : 
+\begin{itemize}
+    \item $k\geq 0$ a time period in discrete context
+    \item $z(\cdot)$ is a function, such that $z(0)=0$
+    \item $\mathbb{E}_{t}^{BR}\left[z\left(\bm{X}_{t+k}\right)\right]$ is the expected value of the image of the state vector by the function $z(\cdot)$ at time $t+k$ by behavioral agents
+    \item $\bar{m}^{k}$ is the cognitive discounting effect at period $t+k$
+    \item $\mathbb{E}_{t}\left[z\left(\bm{X}_{t+k}\right)\right]$ is the rational expectation of the image of the state vector by the function $z(\cdot)$ at time $t+k$
+\end{itemize}
+
+\subsubsection*{Equation 12}
+
+\begin{equation}
+    \mathbb{E}_{t}^{BR}\left[\bar{r}+\hat{r}\left(\bm{X}_{t+k}\right)\right]=\bar{r}+\bar{m}^{k}\mathbb{E}_{t}\left[\hat{r}(\bm{X}_{t+k})\right]
+\end{equation}
+
+Equation (12) is an example of the Lemma 1 applied to the interest rate, where :
+\begin{itemize}
+    \item $k\geq 0$ a time period in discrete context
+    \item $\bar{r}$ the steady state level of the real interest rate, that does not depend on time,  
+    \item $\hat{r}(\bm{X}_{t+k})$ is the equilibrium transition function defining the value of the deviation from the steady state of the real interest rate in function of the state vector at time $t+k$
+    \item $\bar{r}+\hat{r}(\bm{X}_{t})=r_{t}(\bm{X}_{t})$ is the value of the real interest rate at time $t$
+    \item $\mathbb{E}_{t}^{BR}\left[\bar{r}+\hat{r}(\bm{X}_{t+k})\right]$ is the expected value of the real interest at time $t+k$ by behavioral agents
+    \item $\mathbb{E}_{t}\left[\hat{r}(\bm{X}_{t+k})\right]$ is the rational expectation of value of the deviation of the real itnerest rate from the steady state at time $t+k$
+\end{itemize}
+
+\subsection{The Firm's problem}
+
+\subsubsection*{Equation 13}
+\begin{equation}
+    P_{t}=\left(\int_{0}^{1}P_{it}^{1-\varepsilon}\,di\right)^{\frac{1}{1-\varepsilon}}
+\end{equation}
+
+Equation (13) describes the aggregate price level, where : 
+\begin{itemize}
+    \item $P_{t}$ is the aggregate price level of the economy at time $t$
+    \item $i\in\left[0,1\right]$ is the firm index
+    \item $\varepsilon$ is the elasticity of subsititution between goods
+\end{itemize}
+
+\subsubsection*{Equation 14}
+\begin{equation}
+    \varv^{0}(q_{i\tau},\mu_{\tau},c_{\tau}):=\left(e^{q_{i\tau}}-(1-\tau_{f})e^{-\mu_{\tau}}\right)e^{-\varepsilon q_{i\tau}}c_{\tau}
+\end{equation}
+
+Equation (14) describes the profit of the firm before the lump sum tax of the government, where : 
+\begin{itemize}
+    \item $\varv$ is the real profit of the firm
+    \item $q_{i\tau}=\text{ln}\left(\frac{P_{i\tau}}{P_{\tau}}\right)=p_{i\tau}-p_{\tau}$ is the real log price at time $\tau$
+    \item $\tau_f=\frac{1}{\varepsilon}$ it the corrective wage subsidy from the government, funded by the lump sum tax
+    \item $\mu_{\tau}=\zeta_{t}-\text{ln}(\omega_{t})$ is the labor wedge, which is zero at efficiency
+    \item $\varepsilon$ is the elasticity of subsititution between goods
+    \item $c_{\tau}$ is the aggregate level of consumption
+\end{itemize}
+
+\subsubsection*{Equation 15}
+\begin{equation}
+    \varv\left(q_{it},\bm{X}_{\tau}\right):=\varv^{0}\left(q_{it}-\Pi(\bm{X}_{\tau}),\mu(\bm{X}_{\tau}),c(\bm{X}_{\tau})\right)
+\end{equation}
+
+Equation 15 describes the flow profit of the firm in function of the real log price and of the extended macro state vector, where : 
+\begin{itemize}
+    \item $q_{it}=\text{ln}\left(\frac{P_{it}}{P_{t}}\right)=p_{it}-p_{t}$ is the real log price
+    \item $\bm{X}_{\tau}=(\bm{X}^{\mathcal{M}}_{\tau}, \Pi_{\tau})$ is the extended macro state vector, with $\bm{X}^{\mathcal{M}_{\tau}}$ the vector of macro variables, including $\zeta_{\tau}$ and possible announcements about future policy
+    \item $\Pi\left(\bm{X}_{\tau}\right):=p_{\tau}-p_{t}=\pi_{t+1}+...+\pi_{\tau}$ is the inflation between times $t$ and $\tau$
+    \item $q_{it}-\Pi(\bm{X}_{\tau})=q_{i\tau}$ is the real price of the firm if they didn't change its price between $t$ and $\tau$
+    \item $\mu\left(\bm{X}_{\tau}\right)$ is the labor wedge in function of the extended state vector at time $t$
+    \item $c(\bm{X}_{\tau})$ is the aggregate consumption level in function of the extended state vector at time $t$
+\end{itemize}
+
+\subsubsection*{Equation 16}
+
+Equation (16) ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation}
+\begin{equation}
+    EQ
+\end{equation}
+
+Equation () ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
