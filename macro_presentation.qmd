@@ -1,7 +1,12 @@
 ---
-title: "Macroeconomics 2 Presentation \\ Part III equations"
-author: "Gugelmo Cavalheiro Dias Paulo \\ and Mitash Nayanika \\ and Wang Shang"
+title: "Macroeconomics 2 Presentation equations summary"
+author:
+- Gugelmo Cavalheiro Dias Paulo
+- Mitash Nayanika
+- Wang Shang
 pdf-engine: latexmk
+mainfont: Times New Roman
+monofont: Times New Roman
 format:
   pdf:
     mainfont: Times New Roman
@@ -221,14 +226,119 @@ Equation 15 describes the flow profit of the firm in function of the real log pr
 
 \subsubsection*{Equation 16}
 
-Equation (16) ..., where : 
+\begin{equation}
+    \max_{q_{it}}{\mathbb{E}_{t}\left[ \sum_{\tau=t}^{\infty}\left(\beta\theta\right)^{\tau-t}\frac{c\left(\bm{X}_{\tau}^{-\gamma}\right)}{c\left(\bm{X}_{t}^{-\gamma}\right)}\varv\left(q_{it,\bm{X}_{\tau}}\right)\right] }
+\end{equation}
+
+Equation (16) describes the maximisation program of the firm given that they have a Calvo-like probability of $\theta$ of being able to change their price at each period, where : 
+
+\begin{itemize}
+    \item $t$ is the initial period 
+    \item $\tau$ is the time period index  
+    \item $q_{it}$ is the real log price of the firm at time $t$
+    \item $\beta$ is the discount factor
+    \item $\theta$ is the Calvo like probability that the firm can change its price at any period
+    \item $\frac{c\left(\bm{X}_{\tau}^{-\gamma}\right)}{c\left(\bm{X}_{t}^{-\gamma}\right)}$ is the adjustment in the stochastic discount factor between times $t$ and $\tau$
+\end{itemize}
+
+\subsubsection*{Equation 17}
+\begin{equation}
+    \max_{q_{it}}{\mathbb{E}_{t}^{BR} \left[\sum_{\tau=t}^{\infty}(\beta\theta)^{\tau-t}\frac{c\left(\bm{X}_{\tau}^{-\gamma}\right)}{c\left(\bm{X}_{t}^{-\gamma}\right)} \varv\left(q_{it,\bm{X}_{\tau}}\right) \right]}
+\end{equation}
+
+Equation 17 describes the maximisation program of the behavioral firm, i.e. such that it is maximisation the behavioral expectation operator of the flow profit, where : 
+\begin{itemize}
+    \item $\mathbb{E}_{t}^{BR}$ is the behavioral/subjective expected value operator 
+    \item $t$ is the initial period 
+    \item $\tau$ is the time period index  
+    \item $q_{it}$ is the real log price of the firm at time $t$
+    \item $\beta$ is the discount factor
+    \item $\theta$ is the Calvo like probability that the firm can change its price at any period
+    \item $\frac{c\left(\bm{X}_{\tau}^{-\gamma}\right)}{c\left(\bm{X}_{t}^{-\gamma}\right)}$ is the adjustment in the stochastic discount factor between times $t$ and $\tau$
+\end{itemize}
+
+\subsection{Model solution}
+
+\subsubsection*{Equation 18}
+\begin{equation}
+    \hat{c}_{t}=\mathbb{E}_{t}\left[\hat{c}_{t+1}-\frac{1}{\gamma R}\hat{r}_{t}\right]
+\end{equation}
+
+Equation (18) is the linearized version of the Euler equation obtained from the presented model. It is also called the investment-savings (IS) curve, where : 
+\begin{itemize}
+    \item $\hat{c}_{t}$ is the value of the deviation from the steady state of the aggregate consumption at time $t$
+    \item $\mathbb{E}_{t}\left[\hat{c}_{t+1}\right]$ is the rational expectation of the value of the deviation from the steady state of the aggregate consumption at time $t+1$
+    \item $\gamma$ is the factor of the importance of consumption
+    \item $R:=1+\bar{r}$ is defined from the real intereste rate at the steady state (cf. page 7 of the article)
+\end{itemize}
+
+\subsubsection*{Equation 19}
+\begin{equation}
+    \hat{c}_{t}=M\cdot\mathbb{E}_{t}\left[\hat{c}_{t+1}-\sigma\hat{r}_{t}\right]
+\end{equation}
+
+Equation (19) is the application of Lemma 1 (equation (11)) on the previous Euler equation, i.e. a cognitively discounted aggregate Euler equation, where : 
+\begin{itemize}
+    \item $M$ is the macro parameter of attention, such that $M=\bar{m}$ here
+    \item $\sigma=\frac{1}{\gamma R}$
+\end{itemize}
+
+\subsubsection*{Equation 20}
+\begin{equation}
+    N^{\phi}_{t}=\omega_{t}c_{t}^{\gamma}
+\end{equation}
+
+Equation (20) the result of the static First Order Condition for labor supply, where : 
+\begin{itemize}
+    \item $N_{t}$ is the quantity of labor provided at time $t$
+    \item $\omega_{t}$ is the real wage at time $t$
+    \item $c_{t}$ is the aggregate quantity of consumption at time $t$
+    \item $\gamma$ is the consumption importance in the utility
+\end{itemize}
+
+\subsubsection*{Equation 21}
+\begin{equation}
+    \hat{c}_{t}^{n}=\frac{1+\phi}{\gamma+\phi}\zeta_{t}
+\end{equation}
+
+Equation (21) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsubsection*{Equation 22}
 \begin{equation}
-    EQ
+    \hat{c}^{n}_{t} = M\cdot\mathbb{E}_{t}\left[\hat{c}^{n}_{t+1}\right]-\sigma\hat{r}^{n}_{t}
+\end{equation}
+
+Equation (22) ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation 23}
+\begin{equation}
+    r^{n0}_{t}=\bar{r}+\frac{1+\phi}{\sigma(\gamma+\phi)}\left(M\cdot\mathbb{E}_{t}\left[\zeta_{t+1}\right]-\zeta_{t}\right)
+\end{equation}
+
+Equation (23) ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation 24}
+\begin{equation}
+    x_{t}=M\cdot\mathbb{E}_{t}\left[x_{t+1}\right]-\sigma(\hat{r}_{t}-\hat{r}^{n}_{t})
+\end{equation}
+
+Equation (24) ..., where : 
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection*{Equation 25}
+\begin{equation}
+    x_{t}=M\cdot\mathbb{E}_{t}\left[x_{t+1}\right]-\sigma(i_{t}-\mathbb{E}_{t}\left[\pi_{t+1}\right]-r^{n}_{t})
 \end{equation}
 
 Equation () ..., where : 
@@ -236,142 +346,58 @@ Equation () ..., where :
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsubsection*{Equation 26}
 \begin{equation}
-    EQ
+    x_{t}=-\sigma\sum_{k\geq 0}{M\cdot \mathbb{E}_{t}\left[\hat{r}_{t+k}-\hat{r}_{t+k}^{n}\right]}
 \end{equation}
 
-Equation () ..., where : 
+Equation (26) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsubsection*{Equation 27}
 \begin{equation}
-    EQ
+    p^{*}_{t}=p_{t}+(1-\beta\theta)\sum_{k=0}^{\infty}\left(\beta\theta\bar{m}\right)^{k}\cdot\mathbb{E}_{t}\left[\pi{t+1}+...+\pi_{t+k}-\mu_{t+k}\right]
 \end{equation}
 
-Equation () ..., where : 
+Equation (27) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsection{A Behavioral New Keynesian Model}
+
+\subsubsection*{Equation 28 - Proposition 2, first equation}
 \begin{equation}
-    EQ
+    x_{t}=M\cdot\mathbb{E}_{t}\left[x_{t+1}\right]-\sigma(i_{t}-\mathbb{E}_{t}\left[\pi_{t+1}\right]-r^{n}_{t})
 \end{equation}
 
-Equation () ..., where : 
+Equation (28) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsubsection*{Equation 29 - Proposition 2, second equation}
 \begin{equation}
-    EQ
+    \pi_{t}=\beta\cdot M^{f} \mathbb{E}_t\left[\pi_{t+1}\right]+\kappa\cdot x_{t}
 \end{equation}
 
-Equation () ..., where : 
+Equation (29) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
 
-\subsubsection*{Equation}
+\subsubsection*{Equation 30}
 \begin{equation}
-    EQ
+    \begin{cases}
+        M=\bar{m} \\
+        \sigma=\frac{1}{\gamma R} \\
+        M^{f}=\bar{m}\left(\theta+\frac{1-\beta\theta}{1-\beta\theta\bar{m}}(1-\theta)\right)
+    \end{cases}
 \end{equation}
 
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection*{Equation}
-\begin{equation}
-    EQ
-\end{equation}
-
-Equation () ..., where : 
+Equation (30) ..., where : 
 \begin{itemize}
     \item 
 \end{itemize}
