@@ -11,8 +11,10 @@ website:
         file: index.qmd
       - text: "Contact"
         file: contact.qmd 
-      - text: "Macro presentation"
+      - text: "Macroeconomics 2 presentation"
         file: macro_presentation.qmd
+      - text: "Microeconomics 2 project"
+        href: /Micro_project
       - text: Webgraph
         href: /Webgraph
 format:

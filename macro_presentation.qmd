@@ -397,7 +397,7 @@ Equation (29) ..., where :
     \end{cases}
 \end{equation}
 
-Equation (30) ..., where : 
+Equation (30) ..., where :
 \begin{itemize}
     \item 
 \end{itemize}
