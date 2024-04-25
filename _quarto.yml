@@ -12,7 +12,7 @@ website:
       - text: "Contact"
         file: contact.qmd 
       - text: "Macroeconomics 2 presentation"
-        file: macro_presentation.qmd
+        href: /Macroeconomics-2-Presentation
       - text: "Microeconomics 2 project"
         href: /Micro_project
       - text: Webgraph
