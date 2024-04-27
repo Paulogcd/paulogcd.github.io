@@ -4,24 +4,27 @@ project:
 
 website:
   navbar:
-    background: primary
+    title: false
+    background: '#BEDDBA'
     search: true
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Projects"
+        menu: 
+        - text: "Macroeconomics 2 presentation"
+          href: /Macroeconomics-2-Presentation
+        - text: "Microeconomics 2 project"
+          href: /Micro_project
       - text: "Contact"
         file: contact.qmd 
-      - text: "Macroeconomics 2 presentation"
-        href: /Macroeconomics-2-Presentation
-      - text: "Microeconomics 2 project"
-        href: /Micro_project
       - text: Webgraph
         href: /Webgraph
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
 
 

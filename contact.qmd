@@ -11,7 +11,7 @@ about:
       href: https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/
 ---
 
-Feel free to contact me if you wish ! I will answer the mails received in my mail adress : paulo.gugelmocavalheirodias, followed by "@sciencespo.fr", you can also contact me [per LinkedIn](https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/). 
+Feel free to contact me if you wish ! You can contact me via my academic mail adress : paulo.gugelmocavalheirodias, followed by "@sciencespo.fr", you can also contact me [per LinkedIn](https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/). 
 
 
-(Testing :) [Here you can see my CV](documents/CV.pdf).
+[Here you can see my CV](documents/CV.pdf).
