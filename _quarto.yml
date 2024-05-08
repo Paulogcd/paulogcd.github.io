@@ -11,6 +11,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Projects"
+        href: "Projects.qmd"
         menu: 
         - text: "Macroeconomics 2 presentation"
           href: /Macroeconomics-2-Presentation

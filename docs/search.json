@@ -12,5 +12,12 @@
     "title": "Contact",
     "section": "",
     "text": "Feel free to contact me if you wish ! You can contact me via my academic mail adress : paulo.gugelmocavalheirodias, followed by “@sciencespo.fr”, you can also contact me per LinkedIn."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "My projects",
+    "section": "",
+    "text": "Here is the list of some projects.\n\nMacroeconomics Presentation about a Behavioral New Keynesian Model\nMicroeconomics Group project about modelling pollution tax in a Game Theoretical Framework\nWebgraph : an attempt to create an R package to make webscrapping easier"
   }
 ]

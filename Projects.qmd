@@ -1,0 +1,18 @@
+---
+title: "My projects"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Paulogcd 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/
+---
+
+Here is the list of some projects. 
+
+- Macroeconomics Presentation about a Behavioral New Keynesian Model
+- Microeconomics Group project about modelling pollution tax in a Game Theoretical Framework
+- Webgraph : an attempt to create an R package to make webscrapping easier
