@@ -1,8 +1,11 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+  - CNAME
 
 website:
+  site-url: https://paulogcd.com
   navbar:
     title: false
     background: '#BEDDBA'
@@ -11,16 +14,16 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Projects"
-        href: "Projects.qmd"
-        menu: 
-        - text: "Macroeconomics 2 presentation"
-          href: /Macroeconomics-2-Presentation
-        - text: "Microeconomics 2 project"
-          href: /Micro_project
+        href: Projects.qmd
       - text: "Contact"
         file: contact.qmd 
-      - text: Webgraph
-        href: /Webgraph
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/Paulogcd/paulogcd.github.io
+          - text: Report a Bug
+            href:  https://github.com/Paulogcd/paulogcd.github.io/issues
 
 format:
   html:
