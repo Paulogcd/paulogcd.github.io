@@ -15,7 +15,7 @@ website:
         file: index.qmd
       - text: "Projects"
         file: projects.qmd
-      - text: "My blog"
+      - text: "Blog"
         href: /blog
       - text: "Contact"
         file: contact.qmd
