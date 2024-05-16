@@ -14,9 +14,11 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "Projects"
-        href: Projects.qmd
+        href: projects.qmd
+      - text: "My blog"
+        href: /blog
       - text: "Contact"
-        file: contact.qmd 
+        file: contact.qmd
     tools:
       - icon: github
         menu:
