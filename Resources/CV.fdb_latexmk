@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber CV"] 0 "CV.bcf" "CV.bbl" "CV" 1714230013
-  "CV.bcf" 1714230013 106472 1c2524de4f0c64e594c7db5f8523bfa7 "pdflatex"
+["biber CV"] 1716407048 "CV.bcf" "CV.bbl" "CV" 1716407054
+  "CV.bcf" 1716407054 106472 1c2524de4f0c64e594c7db5f8523bfa7 "pdflatex"
   (generated)
   "CV.blg"
   "CV.bbl"
-["pdflatex"] 1714230011 "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.tex" "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.pdf" "CV" 1714230013
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.aux" 1714230013 1796 7e96f8675d8da44bc6a1ed0e3cd87f73 ""
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.tex" 1714230010 9289 c7ea306760bebddd8e8b813d9dcf7b79 ""
+["pdflatex"] 1716407052 "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.tex" "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.pdf" "CV" 1716407054
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.aux" 1716407054 1796 7e96f8675d8da44bc6a1ed0e3cd87f73 ""
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.tex" 1716407045 9219 e8eae6fca219d76fc1caaac59aa0611b ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1585083055 2911 7adff171bd8c0a41152be2ab1520c87f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1585083055 3040 a74211a8f4718d9997628e5616b4ef48 ""
@@ -120,17 +120,17 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632435985 2724742 d4c7191149db17f17f7af666ce47b818 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV.aux" 1714230013 1796 7e96f8675d8da44bc6a1ed0e3cd87f73 "pdflatex"
-  "CV.bbl" 1714229854 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber CV"
-  "CV.out" 1714230013 370 0cdecf18076cc73e68c2d15ec2be73e4 "pdflatex"
-  "CV.run.xml" 1714230013 2296 c324e341a9f40b2d1d4569fec54094f0 "pdflatex"
-  "CV.tex" 1714230010 9289 c7ea306760bebddd8e8b813d9dcf7b79 ""
+  "CV.aux" 1716407054 1796 7e96f8675d8da44bc6a1ed0e3cd87f73 "pdflatex"
+  "CV.bbl" 1716407050 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber CV"
+  "CV.out" 1716407054 370 0cdecf18076cc73e68c2d15ec2be73e4 "pdflatex"
+  "CV.run.xml" 1716407054 2296 c324e341a9f40b2d1d4569fec54094f0 "pdflatex"
+  "CV.tex" 1716407045 9219 e8eae6fca219d76fc1caaac59aa0611b ""
   (generated)
-  "CV.pdf"
-  "CV.out"
-  "CV.bcf"
-  "CV.log"
-  "CV.aux"
-  "CV.run.xml"
   "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.pdf"
+  "CV.aux"
+  "CV.bcf"
+  "CV.out"
+  "CV.log"
+  "CV.pdf"
+  "CV.run.xml"
   "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV.log"
