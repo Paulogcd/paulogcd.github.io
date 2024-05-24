@@ -1,0 +1,11 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'CV_template.blg'
+[124] biber-darwin:340> INFO - === Fri May 24, 2024, 16:01:39
+[154] Biber.pm:415> INFO - Reading 'CV_template.bcf'
+[301] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[301] Biber.pm:949> INFO - Using all citekeys in bib section 1
+[301] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[331] Biber.pm:4340> INFO - Processing section 1
+[347] Biber.pm:4531> INFO - Looking for bibtex format file 'citations.bib' for section 1
+[559] Utils.pm:411> ERROR - Cannot find 'citations.bib'!
+[560] Biber.pm:132> INFO - ERRORS: 1
