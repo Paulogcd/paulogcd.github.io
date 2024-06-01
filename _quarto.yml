@@ -6,6 +6,7 @@ project:
 
 website:
   site-url: https://paulogcd.com
+  page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Paulo Gugelmo Cavalheiro Dias" 
   navbar:
     title: false
     background: '#BEDDBA'
