@@ -7,6 +7,9 @@ title: "My projects"
 Here is a list of some projects I began :
 \end{center}
 
+- Research Portfolio tutorial (ongoing) : 
+This is a simple tutorial about online portfolio creation for research students, using GitHub and Quarto. 
+
 - [Macroeconomics Group Presentation about a Behavioral New Keynesian Model](/Macroeconomics-2-Presentation) (finished) : 
 This was a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class that consisted in an article review of "A Behavioral New Keynesian Model", by Xavier Gabaix (2020). We received a grade of 18 over 20 for this presentation.
 
