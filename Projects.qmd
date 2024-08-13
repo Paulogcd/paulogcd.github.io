@@ -7,11 +7,13 @@ title: "My projects"
 Here is a list of some projects I began :
 \end{center}
 
-- [Macroeconomics Group Presentation about a Behavioral New Keynesian Model](/Macroeconomics-2-Presentation) (finished) : 
+- [Research Portfolio Tutorial (ongoing)](/portfolio_tutorial) : This is a tutorial aimed at fellow research students to explain how to create and maintain in a quick and efficient way their online portfolio. It introduces to vscode, git, github, and uses Quarto and GitHub Pages to generate and publish the content.
+
+- [Macroeconomics Group Presentation about a Behavioral New Keynesian Model (finished)](/Macroeconomics-2-Presentation) : 
 This was a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class that consisted in an article review of "A Behavioral New Keynesian Model", by Xavier Gabaix (2020). We received a grade of 18 over 20 for this presentation.
 
-- [Microeconomics Group project about modelling pollution tax in a Game Theoretical Framework](/Micro_project) (finished) : 
+- [Microeconomics Group project about modelling pollution tax in a Game Theoretical Framework (finished)](/Micro_project) : 
 This was a group project done in the spring semester of 2024 for a Microeconomics 2 class that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between firms and government in a context of pollution tax. We still didn't receive our grade.
 
-- [Webgraph : an attempt to create an R package to make graph visualiation with webscrapping easier on R](/Webgraph) (dead) : 
+- [Webgraph : an attempt to create an R package to make graph visualiation with webscrapping easier on R (dead)](/Webgraph) : 
 This was a personal project began in the spring semester of 2024, after being introduced how to create an R library in a introductory class of programming. 
