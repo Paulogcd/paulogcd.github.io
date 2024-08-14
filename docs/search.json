@@ -14,8 +14,8 @@
     "text": "Feel free to contact me if you wish ! You can contact me via my academic mail adress : paulo.gugelmocavalheirodias, followed by “@sciencespo.fr”, you can also contact me per LinkedIn."
   },
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "My projects",
     "section": "",
     "text": "Research Portfolio Tutorial (finished) : This is a tutorial aimed at fellow research students to explain how to create and maintain in a quick and efficient way their online portfolio. It is an introduction to Vscode, Git, Github, and uses Quarto and GitHub Pages to generate and publish the content.\nMacroeconomics Group Presentation about a Behavioral New Keynesian Model (finished) : This is a group presentation done in the spring semester of 2024 for a Macroeconomics 2 class that consisted in an article review of “A Behavioral New Keynesian Model”, by Xavier Gabaix (2020). We received a grade of 18 over 20 for this presentation.\nMicroeconomics Group project about modelling pollution tax in a Game Theoretical Framework (finished) : This is a group project done in the spring semester of 2024 for a Microeconomics 2 class that consisted in the use of notions seen in class on a chosen case. We choose to do it on strategic interactions between firms and government in a context of pollution tax. We received a grade of 14 over 20 for this work.\nWebgraph : an attempt to create an R package to make graph visualiation with webscrapping easier on R (dead) : This was a personal project began in the spring semester of 2024, after being introduced how to create an R library in a introductory class of programming."
