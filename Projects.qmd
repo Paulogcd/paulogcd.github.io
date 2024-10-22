@@ -6,7 +6,7 @@ title: "My projects"
 Here is a list of some projects I began :
 \end{center}
 
-- [Macroeconomics 3 Group presentation (in progress)](/Macroeconomics-3-Presentation) : This is a group presentation done in the fall semester of 2024-2025 for a Macroeconomics 3 class. We were asked to present in 5-7 minutes some empirical facts of a paper and their possible link with macroeconomic theory about the topic of wealth inequality. For this presentation, we choose the article of Junia Howell and James R Elliott, _Damages Done: The Longitudinal Impacts of Natural Hazards on Wealth Inequality in the United States_, Social Problems, Volume 66, Issue 3, August 2019, Pages 448–467, https://doi.org/10.1093/socpro/spy016.
+- [Macroeconomics 3 Group presentation (finished)](/Macroeconomics-3-Presentation) : This is a group presentation done in the fall semester of 2024-2025 for a Macroeconomics 3 class. We were asked to present in 5-7 minutes some empirical facts of a paper and their possible link with macroeconomic theory about the topic of wealth inequality. For this presentation, we choose the article of Junia Howell and James R Elliott, _Damages Done: The Longitudinal Impacts of Natural Hazards on Wealth Inequality in the United States_, Social Problems, Volume 66, Issue 3, August 2019, Pages 448–467, https://doi.org/10.1093/socpro/spy016.
 
 - [Research Portfolio Tutorial (finished)](/portfolio_tutorial) : This is a tutorial aimed at fellow research students to explain how to create and maintain in a quick and efficient way their online portfolio. It is an introduction to Vscode, Git, Github, and uses Quarto and GitHub Pages to generate and publish the content.
 
