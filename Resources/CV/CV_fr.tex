@@ -1,0 +1,217 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Paulo Gugelmo Cavalheiro Dias} \\[7.5pt]
+\href{https://github.com/Paulogcd}{\raisebox{-0.05\height}\faGithub\ Paulogcd} \ $|$ \ 
+\href{https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
+\href{https://paulogcd.com}{\raisebox{-0.05\height}\faGlobe \ paulogcd.com} \ $|$ \ 
+\href{mailto:paulo.gugelmocavalheirodias@sciencespo.fr}{\raisebox{-0.05\height}\faEnvelope \ Email} \ 
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+\hfill \break
+
+%Experience
+\section{Expériences professionnelles}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Freelance Data Analyst} & \hfill Novembre 2024 - Présent \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Responsable de l'analyse des données dans le cadre de différents projets d'étude. Mes principales activités sont l'analyse coût-bénéfice, l'analyse des déterminants de la consommation, l'analyse documentaire et la rédaction de rapports.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Centre de recherche Marc Bloch} & \hfill Avril 2023 - Août 2023 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Responsable de missions d'appui administratives, notamment en ce qui concerne l'organisation d'événements scientifiques. J'ai également été ponctuellement chargé de missions de recherche, notamment de résumer des publications scientifiques et de rédiger des bibliographies ciblées.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Chambre Franco-Allemande de Commerce et d'Industrie} & \hfill Septembre 2022 - Mars 2023 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Assistant à la représentation berlinoise de la Chambre franco-allemande de commerce et d'industrie (CFACI), chargée de l'analyse commerciale et économique des entreprises et des secteurs d'activité dans le cadre des programmes de soutien commercial.}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Mairie de Beauchamp} & \hfill Juillet 2022 – Septembre 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Assistant du Pôle Ressources et Citoyenneté de la commune de Beauchamp (95250), chargée de la rédaction d'un guide interne sur les bonnes pratiques en matière de passation de marchés publics et de politiques d'achat public.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Sciences Po, Centre de Sociologie des Organisation (CSO)} & \hfill Juillet 2021 – Septembre 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Assistant de recherche au Centre de Sociologie des Organisations (CSO) de Sciences Po avec Philipp Brandt. En charge de la collecte et du traitement des données issues de l'API Twitter.}  \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Formation}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+
+2024 – Présent & Master of Research in Economics à \href{https://www.sciencespo.fr/en/}{Sciences Po} \\ 
+
+2019 – 2023 & Double Bachelor en sciences sociales et science politique à \href{https://www.sciencespo.fr/en/}{Sciences Po} et à la \href{https://www.fu-berlin.de/en/index.html}{Freie Universität}\\
+
+2019 – 2022 & Licence en économie et gestion (mention Bien) à l'\href{https://www.univ-lorraine.fr/en/}{Université de Lorraine}\\
+
+2019 & Baccalauréat au \href{https://www.lyc-polyvalent-monod-enghien.fr/}{lycée Gustave Monod, Enghien-les-Bains} \hfill \\
+
+2019 & Abitur au \href{https://www.lyc-polyvalent-monod-enghien.fr/}{lycée Gustave Monod, Enghien-les-Bains} \hfill \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Compétences}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Programmation \quad \quad & Niveau intermédiaire avec R en analyse de données :
+collecte de données (rvest, httr),
+analyse statistique (packages tydiverse, data.table, igraph pour l'analyse de réseau),
+visualisation de données (ggplot2, rmarkdown, notions en Shiny). \\
+& Niveau intermédiaire avec Julia : data management et modélisation économique.\\
+& Niveau élémentaire avec d'autres logiciels statistiques : Stata, MATLAB. \\
+& Niveau élémentaire en Python, SQL, et C. \\
+\end{tabularx}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Développement web &  Niveau intermédiaire en HTML, CSS, et Javascript. \\
+& Expérience avec Quarto (voir mon \href{https://www.paulogcd.com}{site internet}). \\
+& Niveau élémentaire en PHP.\\
+& \\
+Autres \quad \quad \quad \quad \quad \quad & Maîtrise de la suite Microsoft Office. \\
+&  \LaTeX. \\
+& Connaissances basiques en shell et de l'architecture Unix. \\
+& Gestion de code et contrôle de version avec git.\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\section{Langues}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Français &  \normalsize{Natif (C2)}\\
+Portugais &  \normalsize{Parlé (C2)}\\
+Allemand &  \normalsize{Niveau professionnel (C1)}\\  
+Anglais &  \normalsize{Niveau professionnel (C1) - TOEFL : 104/120}\\ 
+Espagnol & \normalsize{Niveau débutant (B1)}\\ 
+Italien & \normalsize{Niveau débutant (B1)}\\ 
+\end{tabularx}
+
+\vfill
+\center{\footnotesize Dernière mise à jour: \today}
+
+\end{document}

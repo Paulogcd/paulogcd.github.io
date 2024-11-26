@@ -15,5 +15,5 @@ about:
 Hello ! I am Paulo Gugelmo Cavalheiro Dias, currently a first year student of the Economic Research Master of Sciences Po, in Paris. Willing to pursue in the Economic Research, my goal with this Website is to be able to efficiently present my work, skills and other eventual material. It is currently under construction, but more will come soon !
 
 I have a double bachelor degree in social sciences and political science between Sciences Po and the Freie Universität. I also have obtained a bachelor degree in economics at the University of Lorraine, in Nancy. I am currently in my first year of Master in Economics in the Research School of Sciences Po.
-Here you can access my [english CV here](./Resources/CV/CV.pdf) and my [french CV](https://drive.google.com/file/d/1AE7E0NJt9-TIcJDALjHm2GugmjieeYi-/view).
+Here you can access my [english CV here](./Resources/CV/CV_en.pdf) and my [french CV](./Resources/CV/CV_fr.pdf).
 
