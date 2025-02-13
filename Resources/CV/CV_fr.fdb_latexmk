@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber CV_fr"] 1739454585 "CV_fr.bcf" "CV_fr.bbl" "CV_fr" 1739454615
-  "CV_fr.bcf" 1739454615 106471 ccbbfe9a1f22c4f6d968315127782b5e "pdflatex"
+["biber CV_fr"] 1739454585 "CV_fr.bcf" "CV_fr.bbl" "CV_fr" 1739455032
+  "CV_fr.bcf" 1739455031 106471 ccbbfe9a1f22c4f6d968315127782b5e "pdflatex"
   (generated)
-  "CV_fr.bbl"
   "CV_fr.blg"
-["pdflatex"] 1739454612 "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.tex" "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.pdf" "CV_fr" 1739454615
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.aux" 1739454615 2015 4552aa0206758e99f3176d764b8d23ad ""
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.tex" 1739454612 10394 7af47663c65cd08446cecbc8e0023604 ""
+  "CV_fr.bbl"
+["pdflatex"] 1739455029 "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.tex" "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.pdf" "CV_fr" 1739455032
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.aux" 1739455031 2015 4552aa0206758e99f3176d764b8d23ad ""
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.tex" 1739455028 10345 f7a953fddee616507b0239fd3844b3be ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1585083055 2911 7adff171bd8c0a41152be2ab1520c87f ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1585083055 3040 a74211a8f4718d9997628e5616b4ef48 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -123,17 +123,17 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632435985 2724742 d4c7191149db17f17f7af666ce47b818 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "CV_fr.aux" 1739454615 2015 4552aa0206758e99f3176d764b8d23ad "pdflatex"
+  "CV_fr.aux" 1739455031 2015 4552aa0206758e99f3176d764b8d23ad "pdflatex"
   "CV_fr.bbl" 1739454589 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber CV_fr"
-  "CV_fr.out" 1739454615 456 cf77a50b1ae503242163a340958ff6c8 "pdflatex"
-  "CV_fr.run.xml" 1739454615 2316 ad196f89a8afe37fe2d6893c9f2797ff "pdflatex"
-  "CV_fr.tex" 1739454612 10394 7af47663c65cd08446cecbc8e0023604 ""
+  "CV_fr.out" 1739455031 456 cf77a50b1ae503242163a340958ff6c8 "pdflatex"
+  "CV_fr.run.xml" 1739455031 2316 ad196f89a8afe37fe2d6893c9f2797ff "pdflatex"
+  "CV_fr.tex" 1739455028 10345 f7a953fddee616507b0239fd3844b3be ""
   (generated)
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.pdf"
-  "CV_fr.aux"
-  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.log"
-  "CV_fr.bcf"
-  "CV_fr.run.xml"
   "CV_fr.pdf"
-  "CV_fr.out"
   "CV_fr.log"
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.pdf"
+  "/Users/pgcd/Documents/Sites/paulogcd.github.io/Resources/CV/CV_fr.log"
+  "CV_fr.out"
+  "CV_fr.aux"
+  "CV_fr.run.xml"
+  "CV_fr.bcf"
