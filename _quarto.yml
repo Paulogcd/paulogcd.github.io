@@ -16,6 +16,8 @@ website:
         file: index.qmd
       - text: "Projects"
         file: projects.qmd
+      - text: "Master Thesis"
+        href: /Master_Thesis
       - text: "Blog"
         href: /blog
       - text: "Contact"
