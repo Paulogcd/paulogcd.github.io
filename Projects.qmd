@@ -6,7 +6,7 @@ title: "My projects"
 Here is a list of some projects I began :
 \end{center}
 
-- [Replication package of Carleton et al., 2022, in Julia (in progress)](/Replication_Carleton_et_al_2022.jl) : Together with [CHAMBON Lionel](https://lionelchambon.github.io/), we attempted to replicate the results of the article Carleton et al., 2022, Valuing the Global Mortality Consequences of Climate Change Accounting for Adaptation Costs and Benefits (the article is available [here](https://doi.org/10.1093/qje/qjac020)). 
+- [Replication package of Carleton et al., 2022, in Julia (finished)](/Replication_Carleton_et_al_2022.jl) : Together with [CHAMBON Lionel](https://lionelchambon.github.io/), we attempted to replicate the results of the article Carleton et al., 2022, Valuing the Global Mortality Consequences of Climate Change Accounting for Adaptation Costs and Benefits (the article is available [here](https://doi.org/10.1093/qje/qjac020)). 
 This was done for the "Development Economics" class, taught during the Semester 2025 Semester by [Clément Imbert](https://sites.google.com/site/clemimbert/) at Sciences Po. 
 Due to large files and complex computations, we did not manage to replicate what we initially wanted, but developed several solutions (including the use of a distant server to manage the data) to replicate some of the results.
 
