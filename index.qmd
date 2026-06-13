@@ -12,7 +12,7 @@ about:
       href: https://www.linkedin.com/in/paulo-gugelmo-cavalheiro-dias/
 ---
 
-Hello! I am Paulo Gugelmo Cavalheiro Dias, currently working as a consultant in economic analysis in Paris.
+Hello! I am currently working as a consultant in economic analysis in Paris.
 
 I hold a Research Master's degree in Economics from Sciences Po.
 My research interests lie primarily in climate and computational economics, and I intend to pursue an academic career in these fields.
