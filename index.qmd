@@ -20,7 +20,7 @@ This website serves as a platform to present my work, technical skills, and pers
 
 I hold a dual Bachelor's degree in Social Sciences and Political Science from Sciences Po and the Freie Universität Berlin, as well as a Bachelor's degree in Economics from the University of Lorraine in Nancy.
 
-You can access my English CV [here](./Resources/CV/CV_en.pdf).
+You can access my English CV [here](./Resources/CV/CV_en.pdf) & my french one [here](./Resources/CV/CV_fr.pdf).
 
 The "Projects" section showcases a selection of the research and programming projects I have undertaken during my studies and beyond.
 
